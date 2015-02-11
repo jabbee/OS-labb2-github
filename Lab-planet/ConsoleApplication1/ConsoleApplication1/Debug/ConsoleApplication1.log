@@ -1,0 +1,22 @@
+﻿Build started 2015-02-11 12:20:51.
+     1>Project "C:\Users\Jakob\Documents\Visual Studio 2012\Projects\OS-lab2-seb\Lab-planet\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt ..\server.c
+         server.c
+     1>c:\users\jakob\documents\visual studio 2012\projects\os-lab2-seb\lab-planet\consoleapplication1\server.c(47): warning C4047: 'initializing' : 'DWORD' differs in levels of indirection from 'void *'
+     1>c:\users\jakob\documents\visual studio 2012\projects\os-lab2-seb\lab-planet\consoleapplication1\server.c(77): warning C4033: 'WinMain' must return a value
+     1>c:\users\jakob\documents\visual studio 2012\projects\os-lab2-seb\lab-planet\consoleapplication1\server.c(130): warning C4047: 'initializing' : 'char' differs in levels of indirection from 'void *'
+     1>c:\users\jakob\documents\visual studio 2012\projects\os-lab2-seb\lab-planet\consoleapplication1\server.c(125): warning C4101: 'buffer' : unreferenced local variable
+     1>c:\users\jakob\documents\visual studio 2012\projects\os-lab2-seb\lab-planet\consoleapplication1\server.c(267): warning C4244: 'function' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\jakob\documents\visual studio 2012\projects\os-lab2-seb\lab-planet\consoleapplication1\server.c(236): warning C4101: 'posY' : unreferenced local variable
+     1>c:\users\jakob\documents\visual studio 2012\projects\os-lab2-seb\lab-planet\consoleapplication1\server.c(115): warning C4715: 'WinMain' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jakob\Documents\Visual Studio 2012\Projects\OS-lab2-seb\Lab-planet\ConsoleApplication1\Debug\ConsoleApplication1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Jakob\Documents\Visual Studio 2012\Projects\OS-lab2-seb\Lab-planet\ConsoleApplication1\Debug\ConsoleApplication1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jakob\Documents\Visual Studio 2012\Projects\OS-lab2-seb\Lab-planet\ConsoleApplication1\Debug\ConsoleApplication1.lib" /MACHINE:X86 Debug\server.obj
+         Debug\wrapper.obj
+         ConsoleApplication1.vcxproj -> C:\Users\Jakob\Documents\Visual Studio 2012\Projects\OS-lab2-seb\Lab-planet\ConsoleApplication1\Debug\ConsoleApplication1.exe
+     1>Done Building Project "C:\Users\Jakob\Documents\Visual Studio 2012\Projects\OS-lab2-seb\Lab-planet\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.56
